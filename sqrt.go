@@ -13,5 +13,5 @@ func Sqrt(x float64) float64 {
 }
 
 func Add(a int, b int) int {
-	return a + b
+	return a * b
 }
