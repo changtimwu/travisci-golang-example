@@ -11,7 +11,7 @@ func TestSqrt(t *testing.T) {
 
 func TestAdd(t *testing.T) {
 	const ina, inb = 1, 2
-	const out = 3
+	cons out = 3
 	if x := Add(ina, inb); x != out {
 		t.Errorf("Add(%v,%v)=%v, want %v", ina, inb, x, out)
 	}
